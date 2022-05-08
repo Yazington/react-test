@@ -1,6 +1,5 @@
 import axios, { AxiosResponse } from 'axios';
 import { GithubCommit } from '../types/GithubCommit';
-// import { Repo } from '../types/Repo';
 
 export const fetchRepos = async () => {
   const response = await axios.get('http://localhost:4000/repos', {
